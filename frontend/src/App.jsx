@@ -1,12 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+} from 'react-router-dom'
+import Layout from './components/Layout'
+import HomeScreen from './screens/HomeScreen'
+import ProductScreen from './screens/ProductScreen'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <>
+        <Route path="/" element={<Layout />}>
+          <Route path="/" index={true} element={<HomeScreen />} />
+          <Route path="/product/:id" element={<ProductScreen />} />
+        </Route>
+      </>
+    )
+  )
 
-  return <h1 className="text-4xl text-blue-500">Hello world</h1>
+  return (
+    <>
+      <RouterProvider router={router} />
+    </>
+  )
 }
 
 export default App
