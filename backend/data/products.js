@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Airpods',
     image: 'images/airpods.jpg',
     description: 'Wireless Bluetooth headphones',
@@ -12,7 +11,6 @@ const products = [
     countInStock: 10,
   },
   {
-    _id: '2',
     name: 'iPhone 12',
     image: 'images/alexa.jpg',
     description: 'Latest iPhone with advanced features',
@@ -24,7 +22,6 @@ const products = [
     countInStock: 5,
   },
   {
-    _id: '3',
     name: 'Samsung Galaxy S21',
     image: 'images/camera.jpg',
     description: 'Newest Samsung smartphone',
@@ -36,7 +33,6 @@ const products = [
     countInStock: 7,
   },
   {
-    _id: '4',
     name: 'Sony WH-1000XM4',
     image: 'images/camera.jpg',
     description: 'Noise-cancelling over-ear headphones',
@@ -48,7 +44,6 @@ const products = [
     countInStock: 0,
   },
   {
-    _id: '5',
     name: 'MacBook Pro',
     image: 'images/mouse.jpg',
     description: 'Apple laptop with M1 chip',
@@ -60,7 +55,6 @@ const products = [
     countInStock: 3,
   },
   {
-    _id: '6',
     name: 'Dell XPS 13',
     image: 'images/mouse.jpg',
     description: 'High-performance laptop from Dell',
@@ -72,7 +66,6 @@ const products = [
     countInStock: 6,
   },
   {
-    _id: '7',
     name: 'Sony PlayStation 5',
     image: 'images/playstation.jpg',
     description: 'Next-gen gaming console from Sony',
@@ -84,7 +77,6 @@ const products = [
     countInStock: 2,
   },
   {
-    _id: '8',
     name: 'Xbox Series X',
     image: 'images/playstation.jpg',
     description: 'Next-gen gaming console from Microsoft',
@@ -96,7 +88,6 @@ const products = [
     countInStock: 3,
   },
   {
-    _id: '9',
     name: 'Apple Watch Series 6',
     image: 'images/sample.jpg',
     description: 'Latest smartwatch from Apple',
@@ -108,7 +99,6 @@ const products = [
     countInStock: 8,
   },
   {
-    _id: '10',
     name: 'Amazon Echo Dot',
     image: 'images/phone.jpg',
     description: 'Smart speaker with Alexa',
